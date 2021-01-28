@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>Games</title>
+	
+</head>
+<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+		body{
+			background-image: linear-gradient(green,blue);
+		}
+		.container{
+			background-image: linear-gradient(blue,green);
+			display: grid;
+			grid-template-rows: 200px auto 100px;
+			margin: 50px;
+			border-radius: 10px;
+			box-shadow: 4px 1px white;
+		}
+		.gallery{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+
+		}
+		.galleryitem {
+			width: 15%;
+			box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+            background-color:rgba(255, 255, 255, 0.9);
+            border: 5px solid red;
+            transition: transform 2s ease 0.5s,border 2s ease 0.5s;
+
+
+			
+			
+		}
+		.galleryitem:hover{
+			transform: scale(1.5);
+			border: 5px dotted green;
+		}
+		.image img{
+			width: 100%;
+			
+
+		}
+
+		figcaption{
+			font-family: 'Rubik', sans-serif;
+		}
+		h1{
+			font-family: 'Bodoni Moda', serif;
+			text-align: center;
+			font-size: 4rem;
+		}
+		h3{
+			text-align: center;
+			font-size: 2rem;
+		}
+		@media only screen and (max-width: 600px){
+			.galleryitem {
+				width: 125px !important;
+				margin: 5%;
+			}
+			h1 {
+				font-size: 2rem;
+			}
+			figcaption{
+				font-family: 'Padauk', sans-serif;
+
+			}
+		}
+
+	
+
+	</style>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>My favourite games</h1>
+		</div>
+		<div class="gallery">
+			<div class="galleryitem">
+				<div class="image"><a href="https://www.minecraft.net/en-us/"target="_blank"><img src="https://www.rosememoriallibrary.org/wp-content/uploads/2015/03/minecraft-logo.jpg"></a>
+				<figcaption>Minecraft</figcaption></div>
+				
+				<div class="Description">
+					<p>The purpose of the game is simply to build and explore (and survive). How many players can play it? You can play by yourself or you can play online with others. The smartphone and tablet versions offer multi-player options through WiFi networks.</p>
+				</div>
+				
+				
+			</div>
+			<div class="galleryitem">
+				<div class="image"><a href="https://en.wikipedia.org/wiki/Among_Us"target="_blank"><img src="https://assets1.ignimgs.com/2020/09/24/among-us-blogroll-1600944784450.jpg?width=1280"></a>
+				<figcaption>Among us</figcaption></div>
+				<div class="Description"><p>Among Us is an online multiplayer social deduction game developed and published by American game studio Innersloth. The game takes place in a space-themed setting, in which players each take on one of two roles, most being Crewmates, and a predetermined number being Impostors.</p></div>
+			</div>
+			<div class="galleryitem">
+				<div class="image"><a href="https://nl.wikipedia.org/wiki/TerraGenesis"target="_blank"><img src="https://giantbomb1.cbsistatic.com/uploads/scale_medium/41/415550/3116391-key%20art%20-%20crop%201.jpg"></a>
+				<figcaption>Terragenesis</figcaption></div>
+				<div class="Description"><p>Use real science from NASA to cultivate life on desolate planets. Think you have what it takes to bring a dead planet to life? Can you settle the stars.Explore space and terraform new worlds in this immersive idle planet building simulator rooted in real science. TerraGenesis dynamically animates entire planets with changing biospheres, all based on real data from NASA.</p></div>
+				
+			</div>
+			<div class="galleryitem">
+				<div class="image"><a href="https://en.wikipedia.org/wiki/SimCity:_BuildIt"target="_blank"><img src="https://th.bing.com/th/id/OIP.C4Ubk1EeElnYPWe2BT1ZggHaEK?w=324&h=180&c=7&o=5&dpr=1.25&pid=1.7"></a>
+				<figcaption>Simcity BuildIt</figcaption></div>
+				<div class="Description"><p>SimCity: BuildIt is a city-building simulation mobile game. Developed by TrackTwenty and published by Electronic Arts, it was launched in late 2014. The game is part of the SimCity franchise, and is available for download on iOS, Android and the Amazon app stores.</p></div>
+				
+			</div>
+		</div>
+		<div class="footer">
+			<h3>Designed by Anhad</h3>
+		</div>
+		
+	</div>
+
+</body>
+</html>
